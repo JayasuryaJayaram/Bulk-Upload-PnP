@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.1",
+    "libraryName": "drag-and-drop-pn-p",
+    "libraryId": "f50fc05c-1aa0-45eb-b824-0566f6d35525",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "DragAndDropPnP",
+    "solutionShortDescription": "DragAndDropPnP description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

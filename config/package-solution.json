@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "drag-and-drop-pn-p-client-side-solution",
+    "id": "f50fc05c-1aa0-45eb-b824-0566f6d35525",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "DragAndDropPnP description"
+      },
+      "longDescription": {
+        "default": "DragAndDropPnP description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "drag-and-drop-pn-p Feature",
+        "description": "The feature that activates elements of the drag-and-drop-pn-p solution.",
+        "id": "ec6e3708-9e2c-4682-9c12-d4c0c681d99d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/drag-and-drop-pn-p.sppkg"
+  }
+}

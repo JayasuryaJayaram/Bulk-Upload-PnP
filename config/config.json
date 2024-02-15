@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "drag-and-drop-pn-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dragAndDropPnP/DragAndDropPnPWebPart.js",
+          "manifest": "./src/webparts/dragAndDropPnP/DragAndDropPnPWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DragAndDropPnPWebPartStrings": "lib/webparts/dragAndDropPnP/loc/{locale}.js"
+  }
+}
